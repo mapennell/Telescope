@@ -3,10 +3,12 @@
   "packages": {
     "router": {},
     "moment": {},
-  	"database-forms": {
-  		"git":"git://github.com/SachaG/database-forms.git"
-  	},
+    "database-forms": {
+      "git": "git://github.com/SachaG/database-forms.git"
+    },
     "paginated-subscription": {},
-    "crypto-md5": {}
+    "crypto-md5": {},
+    "accounts-ui-bootstrap-3": {},
+    "bootstrap-3": {}
   }
 }

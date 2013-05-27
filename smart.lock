@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "master",
-    "commit": "1dfc7171f237a029cca74cbf25024acbf6ed5b75"
+    "commit": "5d736d4bf0448c7db1f9b47124dfafc34a9631bb"
   },
   "dependencies": {
     "basePackages": {
@@ -13,7 +13,9 @@
         "branch": "master"
       },
       "paginated-subscription": {},
-      "crypto-md5": {}
+      "crypto-md5": {},
+      "accounts-ui-bootstrap-3": {},
+      "bootstrap-3": {}
     },
     "packages": {
       "router": {
@@ -40,6 +42,16 @@
         "git": "https://github.com/tmeasday/meteor-crypto-md5.git",
         "tag": "v0.0.1",
         "commit": "a0638a6cabfc84e19f2d5828f76aa8f6a0cc8c1a"
+      },
+      "accounts-ui-bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
+        "tag": "v0.1.6",
+        "commit": "55d9e0dcf847521fc7192c7ef27ae84d2166f874"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v0.2.3",
+        "commit": "30c848d567643b927d671dca0b856e8873f41ca3"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
